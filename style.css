@@ -1,0 +1,74 @@
+/* **************** form ***************** */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: white;
+}
+#main-section{
+    padding: 10px 10px;
+}
+section legend h2{
+    padding: 12px;
+    text-align: left;
+}
+#section-1 #form input{
+     width: 30%;
+     background-color: #000;
+    color: white;
+    border: 1px solid #ddd;
+    padding: 8px 5px;
+    margin: 0px 10px;
+}
+#section-1 #form #btn{
+    margin-top: 10px;
+    width: 35%;
+    background-color: #fff;
+    color: black;
+}
+
+/* ******************search *************** */
+#search-section{
+    width: 100%;
+}
+ #section-search .search{
+    margin: 20px auto;
+    /* border: 2px solid red; */
+}
+.search input{
+    border: 1px solid #ddd;
+    width : 100%;
+    padding: 10px 20px;
+    margin-top : 3rem;
+    background-color: #000;
+    color: #fff;
+}
+
+/* ***************table ******************* */
+
+table{
+    width: 100%;
+    margin: 0 auto;
+    border-color: white;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+td{
+    font-weight: bold;
+    font-size: 18px;
+    background-color:black;
+    color: #fff;
+    padding: 10px 30px;
+}
+.col{
+    background-color : black;
+    color: white;
+    text-align: center;
+}
+input{
+    font-size: 16px;
+}
+
